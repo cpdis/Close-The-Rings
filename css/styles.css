@@ -15,8 +15,8 @@ body {
 .hero h1 {
   font-family: "Holtwood One SC", serif;
   font-weight: normal;
-  font-size: 5.4em;
-  margin: 0 0 20px;
+  font-size: 3.6em;
+  margin: 20px 0 20px;
   text-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -24,7 +24,7 @@ body {
 .hero p {
   font-family: "Abel", sans-serif;
   text-transform: uppercase;
-  color: #5cca87;
+  color: #ff8b38;
   letter-spacing: 6px;
   text-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
   font-size: 1.2em;
@@ -111,7 +111,7 @@ body {
   -webkit-flex-direction: column;
   flex-direction: column;
   width: 95%;
-  width: 30.8333%\9;
+  width: 30.8333%\11;
 }
 .split-two {
 }
@@ -148,6 +148,7 @@ body {
   overflow: hidden;
   position: relative;
 }
+
 .round-two .matchup {
   margin: 0;
   height: 60px;
@@ -157,6 +158,11 @@ body {
   margin: 0;
   height: 60px;
   padding: 130px 0;
+}
+.round-four .matchup {
+  margin: 0;
+  height: 60px;
+  padding: 210px 0;
 }
 .round-details {
   font-family: "Roboto Condensed", sans-serif;
@@ -252,7 +258,7 @@ body {
   font-size: 10px;
   letter-spacing: 2px;
   font-family: "Istok Web", sans-serif;
-  color: #3f915f;
+  color: #d46617;
 }
 
 @media screen and (min-width: 981px) and (max-width: 1099px) {
